@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentacion Tecnica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/fengardo-neue" type="text/css"/>
+</head>
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <header>
+                <h1>DOCUMENTACION TECNICA DE HTML</h1>
+            </header>
+            <ul class="nav-ul">
+                <li><a class="nav-link" href="#¿Que_es_HTML?">¿Que es html?</a></li>
+                <li><a class="nav-link" href="#HTML_basico">HTML basico</a></li>
+                <li><a class="nav-link" href="#Encabezados">Encabezados</a></li>
+                <li><a class="nav-link" href="#Estilos_css">Estilos css</a></li>
+                <li><a class="nav-link" href="#Comentarios">Comentarios</a></li>
+                <li><a class="nav-link" href="#Enlaces">Enlaces</a></li>
+                <li><a class="nav-link" href="#Listas">Listas</a></li>
+                <li><a class="nav-link" href="#Id_y_Clases">Id y Clases</a></li>
+                <li><a class="nav-link" href="#Referencias">Referencias</a></li>
+            </ul>
+        </nav>
+        
+        <section class="container">
+        <section class="main-section" id="¿Que_es_HTML?">
+            <header>¿Que es HTML?</header>
+            <p>
+                HTML significa lenguaje de marcado de hipertexto, este sirve para crear paginas web, y permite describir la estructura de la pagina web.
+            </p>
+        </section>
+        <section class="main-section" id="HTML_basico">
+            <header>HTML basico</header>
+            
+            <p>
+               Todos los documentos HTML deben comenzar con la declaracion de tipo de documento <code><</code><code>!DOCTYPE html></code>, y comienza con una etiqueta <code><</code>     
+               <code>html></code> y termina con <code><</code> <code>html></code>, dentro de estas etiquetas existen dos etiquetas mas las cuales son:
+               <code><</code><code>head></code>  donde van el nombre de la pagina, autor, palabras claves, el enlace al documento de estilos, entre otras cosas y un <code><</code><code>body></code>  que es la parte visible del documento HTML, aqui va toda la informacion que queremos que vea el usuario.
+            </p>
+
+            <p>
+                Existen mas etiquetas que tienen diversas funciones por ejemplo,<code><</code> <code>h1></code>  que es para titulos, la etiqueta <code><</code><code>p></code>  que es para colocar parrafos, <code><</code><code>br></code>  para dar un espacio abajo.
+            </p>
+
+        </section>
+        <section class="main-section" id="Encabezados">
+            <header>Encabezados </header>
+            <p>
+                Los encabezados son titulos o subtitulos que se desean mostrar en la pagina web,
+                y se definen con las etiquetas que van desde la <code><</code> <code>h1></code>  hasta la <code><</code> <code>h6></code> donde la <code><</code> <code>h1></code>  es la de mayor importacia o el titulo principal y la <code><</code> <code>h6></code>  la de menor importancia.
+            </p>
+        </section>
+
+        <section class="main-section" id="Estilos_css">
+            <header>Estilos css</header>
+            <p>El atributo Style se usa para agregar estilos a un elemento, tal como el color, el tamaño, la tipografia, entre otras cosas.</p>
+
+            <p>Esta se puede usar de diferentes maneras</p>
+            <ul class="ejemplo">
+                <li>En linea, mediante el uso del atributo style dentro de los elementos del html</li>
+                <li>Interno, mediante el uso de la etiqueta <code><</code> <code>style></code> en la etiqueta <code><</code> <code>head></code></li>
+                <li>Externo, mediante el uso de la etiqueta <code><</code> <code>link></code> para vincular el archivo html a un archivo css externo</li>
+            </ul>
+            
+        </section>
+        <section class="main-section" id="Comentarios">
+            <header>Comentarios</header>
+            <p>Para realizar comentarios en html solo se debe colocar la etiquetas <code><</code>!-- al principio y --<code>></code> al final del texto </p>
+        </section>
+
+        <section class="main-section" id="Enlaces">
+            <header>Enlaces</header>
+            <p>Estos enlaces son tambien conocidos como hipervinculos, al hacer click te redirige a otra pagina la etiqueta para esta funcion es <code><</code> <code>a></code>  </p>
+        </section>
+
+        <section class="main-section" id="Listas">
+            <header>Listas</header>
+            <p>Las listas permiten a los desarrolladores y existen dos tipos de listas, las ordenadas y las desordenadas, las listas desordenadas comienzan con la etiqueta <code><</code><code>ul></code>
+            y cada elemento tiene sus item que tienen la etiqueta <code><</code><code>li></code>, mientras que las listas ordenadas tienen la etiqueta <code><</code><code>ol></code> 
+            </p>
+            <h3>Ejemplo lista desordenada</h3>
+            <ul class="ejemplo">
+                <li>queso</li>
+                <li>pan</li>
+                <li>lechuga</li>
+                <li>tomate</li>
+                <li>carne</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Id_y_Clases">
+            <header>Id y Clases</header>
+            <p>Las id se utilizan como una identificacion unica de un elemento html, este atributo se utiliza en las hojas de estilo css y en javascript para poder manipular elementos y para llamarlos se utiliza el simbolo "#".
+            </p>
+
+            <p>Las clases se utilizan para identificar a varios elementos que poseen algo en comun, y se utilizan tambien en hojas de estilo y en javascript, para llamarlos se utiliza el simbolo "."</p>
+        </section>
+
+        <section class="main-section" id="Referencias">
+            <header>Referencias</header>
+            <p>Toda la informacion obtenida fue consulta en la pagina de <a href="https://www.w3schools.com/">w3school</a>, la cual esta llena de informacion de diferentes lenguajes de programacion y es muy util para comenzar.</p>
+        </section>
+
+    </section>
+    </main>
+</body>
+</html>
